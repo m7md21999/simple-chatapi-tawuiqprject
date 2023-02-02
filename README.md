@@ -30,24 +30,24 @@ Then, create a new group. Once the group and user are created you can send a mes
 
 ## Endpoints
 Users:
-Post - /api/adduser :: to create a new user
-Put - /api/updateuser/:id :: to update a user
-Delete - /api/deleteuser/:id :: to delete a user
-Get - /api/allusers/ to get all added users in db
-Get - /api/getusermsgs/:id :: to get all created msgs by a specific user By ID
+- Post - /api/adduser :: to create a new user
+- Put - /api/updateuser/:id :: to update a user
+- Delete - /api/deleteuser/:id :: to delete a user
+- Get - /api/allusers/ to get all added users in db
+- Get - /api/getusermsgs/:id :: to get all created msgs by a specific user By ID
 
 
 Groups:
-Post - /api/creategroup :: to create a new group
-Put - /api/updategroup/:id :: to update a group
-Delete - /api/deletegroup/:id :: to delete a group
-Get - /api/allgroups :: to get all created groups
-Get - /api/getgroupmessages/:id :: to get all messges for a specific group By ID
+- Post - /api/creategroup :: to create a new group
+- Put - /api/updategroup/:id :: to update a group
+- Delete - /api/deletegroup/:id :: to delete a group
+- Get - /api/allgroups :: to get all created groups
+- Get - /api/getgroupmessages/:id :: to get all messges for a specific group By ID
 
 Messages:
-Post - /api/sendmessage :: to send a message to a specific by a specific User 
-Delete - /api/deletemessage/:id :: to delete a specific message
-Put - /api/updatemessage/:id :: to update a specific message
+- Post - /api/sendmessage :: to send a message to a specific by a specific User 
+- Delete - /api/deletemessage/:id :: to delete a specific message
+- Put - /api/updatemessage/:id :: to update a specific message
 
 ## Simple postman collocation:
 https://documenter.getpostman.com/view/10718197/2s935mqivo
