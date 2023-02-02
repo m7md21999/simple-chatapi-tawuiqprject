@@ -21,7 +21,7 @@ A very simple api chat Application for managing a chat room messages. Every chat
 ---
 ## Guidelines
 You should create a user first to be able to send messages.
-Then, create a new group. Once the group and user are created you can send a message to the group.
+Then, create a new group. Once the group and user are created you can send a message to the group. Each message must have a groupId and userId to be created.
 
 ## Models
 
